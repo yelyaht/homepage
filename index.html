@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Hayley Tymony">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>A Poor Girl's Cookbook</title>
+
+    <style>
+      body {
+        background-image: url("image/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: black;
+        font-family: Arial, sans-serif;
+      }
+
+      p, li, a {
+        color: black;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+
+      .entremet {
+        width: 250px;
+        height: auto;
+      }
+
+      figure {
+        margin: 20px 0;
+      }
+
+      h1, h2, h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      ol, ul {
+        margin-left: 20px;
+      }
+      .rate {
+    color: #950606;
+    font-weight: bold;
+      }
+      .rating-section fieldset {
+        border: 2px solid #966fb6;
+      }
+      .header-banner {
+        background-image: url("image/banner.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 2rem;
+        text-align: center;
+        color: white;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+
+    <header class="header-banner">
+  <h1>A Poor Girl's Cookbook</h1>
+    </header>
+
+    <div class="links">
+      <h3 class="recipe-heading">Unlock your Baking Creativity</h3>
+
+      <nav class="recipe-links">
+        <a href="https://yelyaht.github.io/Appetizer/">Appetizer</a> <!-- Replace # with actual appetizer links -->
+        <a href="https://yelyaht.github.io/Entree/">Entree</a> <!-- Replace # with actual entree links -->
+        <a href="https://yelyaht.github.io/CodingAssignment3/">Dessert</a>
+        <a href="https://yelyaht.github.io/Sides/">Sides</a> <!-- Replace # with actual sides links -->
+      </nav>
+    </div>
+
+    <div class="picture">
+      <h2>Vanilla Entremet with Strawberry Basil Jelly and Chocolate Ganache</h2>
+      <p>
+        This recipe is adapted from my own cookbook by Hayley Tymony.
+      </p>
+      <figure>
+        <img src="image/entremet.jpg" alt="dessert" class="entremet">
+        <figcaption>Photo by: Hayley Tymony</figcaption>
+      </figure>
+     </div>
+
+<div class="rating-conversion">
+  <div class="rating-section">
+    <h3 class="rate">Rate This Recipe</h3>
+    <fieldset>
+      <legend>How difficult is this recipe?</legend>
+      <input type="radio" id="easy" name="easy">
+      <label for="easy">Easy</label>
+
+      <input type="radio" id="med" name="easy">
+      <label for="easy">Intermediate</label>
+
+      <input type="radio" id="hard" name="easy">
+      <label for="easy">Hard</label>
+    </fieldset>
+  </div>
+
+  <div class="conversion-section">
+    <h3>Conversion</h3>
+    <input type="text" id="tblspn" name="tblspn"> =
+    <input type="text" id="cups" name="cups">
+  </div>
+</div>
+
+     <!-- Flexbox start -->
+ <div class="ingredients-section">
+   <h3>Ingredients List</h3>
+   <h3>For the Chocolate Cake</h3>
+   <ul>
+     <li>1 cup butter, softened</li>
+     <li>3 cups packed brown sugar</li>
+     <li>4 large eggs, room temperature</li>
+     <li>2 teaspoons vanilla extract</li>
+     <li>2 2/3 cups all-purpose flour</li>
+     <li>3/4 cup baking cocoa</li>
+     <li>3 teaspoons baking soda</li>
+     <li>1/2 teaspoon salt</li>
+     <li>1 1/3 cups sour cream</li>
+     <li>1 1/3 cups boiling water</li>
+     <li>1/3 cup granulated sugar</li>
+     <li>1 teaspoon vanilla extract</li>
+   </ul>
+   <h3>For the Strawberry Basil Jelly</h3>
+   <ul>
+     <li>250 g strawberry puree, seedless</li>
+     <li>12 g gelatin powder</li>
+     <li>12 g cornstarch</li>
+     <li>70 ml cold water</li>
+     <li>63 g sugar</li>
+     <li>8 fresh basil leaves</li>
+   </ul>
+   <h3>For the Vanilla Mousse</h3>
+   <ul>
+     <li>480 ml milk</li>
+     <li>18 g gelatin powder</li>
+     <li>27 g cornstarch</li>
+     <li>100 ml water</li>
+     <li>150 g sugar</li>
+     <li>360 ml heavy cream</li>
+     <li>90 g butter</li>
+     <li>6 medium egg yolks</li>
+     <li>1 1/2 teaspoons vanilla (or vanilla bean paste)</li>
+     <li>zest of one lemon</li>
+   </ul>
+   <h3>Optional Chocolate Ganache</h3>
+   <ul>
+     <li>9 ounces semisweet chocolate, roughly chopped</li>
+     <li>1 cup heavy cream</li>
+     <li>2 tablespoon dark rum (Optional)</li>
+   </ul>
+ </div>
+
+  <div class="equipment-section">
+    <h3>Equipment List</h3>
+    <ul>
+      <li>9 inch silicon cake ring</li>
+      <li>3 8 inch silicon cake ring</li>
+      <li>Hand mixer</li>
+      <li>Measuring cups</li>
+      <li>Teaspoons</li>
+      <li>Spatulas</li>
+      <li>Fine mesh strainer (Optional)</li>
+      <li>Small sauce pan</li>
+    </ul>
+  </div>
+
+      <div class="directions-box">
+        <h3>Directions</h3>
+        <h3>For the Chocolate Cake</h3>
+        <ol>
+          <li>Preheat oven to 350°. Grease and flour cake pan.</li>
+          <li>In a large bowl, cream butter, shortening and sugar until light and fluffy, 5-7 minutes. Add eggs, 1 at a time, beating well after each addition. Combine flour, baking powder and cocoa. Combine milk and vanilla. Add dry ingredients to creamed mixture alternately with milk mixture. Mix well.</li>
+          <li>Pour into 2 8 inch silicon cake rings. Bake until a toothpick inserted in the center comes out clean, 70-80 minutes.</li>
+          <li>Cool for 15 minutes before removing from pan to a wire rack to cool completely.</li>
+        </ol>
+        <h3>For the Strawberry Basil Jelly</h3>
+        <ol>
+          <li>In a small bowl mix gelatin and cold water. Let bloom for 15 minutes.</li>
+          <li>In a small saucepan mix sugar and cornstarch, add strawberry puree and chopped basil. Bring to a simmer stirring constantly, until thickens. Remove from heat. add the bloomed gelatin and stir until the gelatin has dissolved. Let cool to room temperature.</li>
+          <li>Pour the mixture into the a 8 inch silicon cake ring. Freeze until ready for assembly.</li>
+        </ol>
+        <h3>For the Vanilla Mousse</h3>
+        <ol>
+          <li>In a small bowl mix gelatin and cold water. Let bloom for 15 minutes.</li>
+          <li>In a small saucepan heat milk with lemon zest and vanilla extract, do not boil. Set aside.</li>
+          <li>In a larger saucepan add sugar, cornstarch and mix. Add egg yolks and mix well. Gradually add the warm milk through a sieve and whisk constantly. Heat the mixture over low-medium heat, whisking constantly, until thickens. Remove from heat, add butter, stir until incorporated. Add the bloomed gelatin and stir until the gelatin has dissolved. Cover with plastic wrap and let cool to room temperature.</li>
+          <li>Whip heavy cream to soft peaks, add the milk mixture unto the whipped cream and gently stir until combined.</li>
+        </ol>
+        <h3>Optional Chocolate Ganache</h3>
+        <ol>
+          <li>Place chocolate in a medium, heat safe mixing bowl.</li>
+          <li>Heat cream in a small saucepan over medium heat. Bring just to a boil, watching very carefully because if it boils for even a few seconds, it will boil out of the pot.</li>
+          <li>As soon as the cream comes to a boil, pour it over the chocolate in the mixing bowl. Whisk until chocolate has melted and mixture is smooth, then stir in rum.</li>
+          <li>Cool for about 5 to 10 minutes. Then pour directly onto the entremet starting at the center and work outward.</li>
+        <h3>Assembly</h3>
+        <ol>
+          <li>Pour half of the mousse in a 9 inch silicon cake ring, shake and spread evenly along the bottom and slightly up the sides, freeze for 5 minutes, then gently place strawberry jelly in the center.</li>
+          <li>Pour about a quarter of the remaining mousse on top of the jelly, leaving room on top for the cake and spread evenly. Make sure you cover all the space around the confiture layer. Place back in the freezer for 5 minutes.</li>
+          <li>Place the cake layer on top, gently press. Fill in any empty spaces on the sides with the remaining mousse and spread any extra mousse from the sides over the cake to make sure it's flat. Cover with plastic wrap and freeze for at least 8 hours.</li>
+          <li>About an hour before serving, remove the cake from the freezer and carefully peel the silicon from the cake. You want to make sure you have enough time for the cake to thaw before serving.</li>
+        </ol>
+      </div>
+  </div>
+
+      <hr />
+
+    <footer class="footer">
+      <!--<div class="footer-left">
+        <a href="index.html">← Back to Homepage</a>
+      </div> -->
+      <div class="footer-right">
+        <p>This page was created as an academic activity only.</p>
+      </div>
+    </footer>
+  <!-- </div> -->
+  </body>
+</html>
+
+<!-- Header could be a cherry blossom gif with words over it saying "Unlock your baking creativity" -->
